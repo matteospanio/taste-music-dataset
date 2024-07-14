@@ -11,7 +11,7 @@ log () {
     local msg="$2"
     local col="$3"
     timestamp=$(date +"%Y-%m-%d %H:%M:%S")
-    echo -e "${col}${timestamp} [${level}] ${msg}${RESET}"
+    echo -e "${col}${timestamp} | ${level}\t| ${msg}${RESET}"
 }
 
 info () {
