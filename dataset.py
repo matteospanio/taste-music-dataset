@@ -4,9 +4,11 @@ from dataclasses import dataclass
 import pathlib as pl
 import pandas as pd
 import json
+import numpy as np
 from mutagen.mp3 import MP3
 from mutagen.easyid3 import EasyID3
 from pprint import pprint
+import librosa
 
 
 @dataclass(frozen=True)
@@ -53,8 +55,26 @@ datas = pd.read_excel(DATA)
 names = pd.read_excel(NAMES)
 
 
+def get_key(song: pl.Path):
+    y, sr = librosa.load(song, sr=None)
+    chroma = librosa.feature.chroma_cqt(y=y, sr=sr)
+
+    # Compute the mean chroma over time
+    chroma_mean = np.mean(chroma, axis=1)
+
+    key_names = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+
+    # Find the index of the maximum mean chroma value
+    key_index = chroma_mean.argmax()
+
+    key = key_names[key_index]
+
+    return key
+
+
 def make_meatadata(dst: pl.Path):
     for i, song in enumerate(DATA_PATH.glob("**/*.mp3")):
+        print(song.stem, get_key(song))
         if i == 0:
             pprint(Metadata.from_file(song))
 
