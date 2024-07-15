@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# shellcheck disable=SC1091
 source ./logger.sh
 
 URL="https://files.de-1.osf.io/v1/resources/2cqa5/providers/osfstorage/?zip="
@@ -51,9 +52,8 @@ extract_metadata () {
         | grep xlsx \
         | sed -n 's/.*\(Supp_File.*$\)/\1/p')
 
-    index=0
-
     # Extract and rename each file
+    local index=0
     for file in "${files[@]}"; do
         ((index++))
 
