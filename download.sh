@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-# shellcheck disable=SC1091
 source ./logger.sh
 
 URL="https://files.de-1.osf.io/v1/resources/2cqa5/providers/osfstorage/?zip="
