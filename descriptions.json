@@ -1,0 +1,502 @@
+[
+    {
+        "id": 1,
+        "instrument": "piano",
+        "description": "A sweet melancholic piano piece."
+    },
+    {
+        "id": 2,
+        "instrument": "piano and strings",
+        "description": "A bitter-sweet dreamy piano piece."
+    },
+    {
+        "id": 3,
+        "instrument": "piano",
+        "description": "A sweet-salty piece with a continuous arpeggio of short notes. The music is in 3/4 time."
+    },
+    {
+        "id": 4,
+        "instrument": "plucked strings",
+        "description": "A bitter piece, a little salty. This is mainly the introduction of the song. Firstly the main melody is played by a plucked string, and at the end starts playing a violin."
+    },
+    {
+        "id": 5,
+        "instrument": "piano",
+        "description": "A sweet-bitter static piano piece. Really slow tempo."
+    },
+    {
+        "id": 6,
+        "instrument": "piano and strings",
+        "description": "A bitter-sour piece with high and continuous string notes."
+    },
+    {
+        "id": 7,
+        "instrument": "strings",
+        "description": "A quite bitter and dissonant piece. Slow tempo."
+    },
+    {
+        "id": 8,
+        "instrument": "harp",
+        "description": "A sweet piece with a harp playing a continuous high melody."
+    },
+    {
+        "id": 9,
+        "instrument": "choir",
+        "description": "A solemn and bitter piece with a choir singing. Reminds of a requiem."
+    },
+    {
+        "id": 10,
+        "instrument": "electronic",
+        "description": "A rythmic and salty piece with a lot of electronic short sounds."
+    },
+    {
+        "id": 11,
+        "instrument": "electric guitar",
+        "description": "A bitter and melancholic guitar piece. The guitar is playing a ripetitive riff."
+    },
+    {
+        "id": 12,
+        "instrument": "electronic",
+        "description": "A sour and really caotic piece with a lot of electronic sounds."
+    },
+    {
+        "id": 13,
+        "instrument": "strings",
+        "description": "A bitter piece with a really low and ininterrpted pedal note and a peaceful melody sang by a choir."
+    },
+    {
+        "id": 14,
+        "instrument": "guitar",
+        "description": "A quite bitter and little sweet piece with a guitar playing a sad melody."
+    },
+    {
+        "id": 15,
+        "instrument": "electric guitar",
+        "description": "A sweet and salty piece with a guitar playing a continuous arpeggio."
+    },
+    {
+        "id": 16,
+        "instrument": "carion",
+        "description": "A really high melody played by a carion. The piece is sweet and a little creepy."
+    },
+    {
+        "id": 17,
+        "instrument": "electronic",
+        "description": "A bitter and salty harmonic piece. The piece is really slow with a series of harmonic cadences."
+    },
+    {
+        "id": 18,
+        "instrument": "strings",
+        "description": "A sweet, consonant piece. The tempo is slow and peaceful."
+    },
+    {
+        "id": 19,
+        "instrument": "strings",
+        "description": "A bitter and sad piece. There isn't a melody but a series of chords."
+    },
+    {
+        "id": 20,
+        "instrument": "guitar",
+        "description": "A bitter-salty piece with a guitar playing a sad arpeggio and melody. A little arabic harmonies."
+    },
+    {
+        "id": 21,
+        "instrument": "violin",
+        "description": "A bitter and sad piece with a violin playing an endless arpeggio."
+    },
+    {
+        "id": 22,
+        "instrument": "piano",
+        "description": "A bitter and sad piece played by a piano. The tempo is slow but the accompaniment is continuous and forms a musical carpet for the melody."
+    },
+    {
+        "id": 23,
+        "instrument": "piano and strings",
+        "description": "A sweet and bitter piece, a little sad. The piano plays a melody and the strings play a continuous arpeggio."
+    },
+    {
+        "id": 24,
+        "instrument": "piano",
+        "description": "A bitter-salty piano piece. The piano plays a melody over a continuous arpeggio."
+    },
+    {
+        "id": 25,
+        "instrument": "strings",
+        "description": "A bitter and melancholic piece. The strings play a dramatic melody."
+    },
+    {
+        "id": 26,
+        "instrument": "piano and strings",
+        "description": "A bitter and dark piece. A really low melody creates a dark atmosphere."
+    },
+    {
+        "id": 27,
+        "instrument": "piano and strings",
+        "description": "A salty and rythmic piece. The strings play fast notes while the piano add some chords in the background."
+    },
+    {
+        "id": 28,
+        "instrument": "electronic",
+        "description": "A bitter-sour and rythmic piece. The piece is fast with percussive electronic sounds."
+    },
+    {
+        "id": 29,
+        "instrument": "electronic",
+        "description": "A bitter and sour piece. The tempo is slow. Low sounds create a suspense atmosphere."
+    },
+    {
+        "id": 30,
+        "instrument": "strings",
+        "description": "A bitter and sour piece. The tempo is slow. The strings play a melody, but the harmony is dissonant and low."
+    },
+    {
+        "id": 31,
+        "instrument": "strings",
+        "description": "A salty and rythmic piece. The strings play a fast and rythmic melody that generates an energetic effect."
+    },
+    {
+        "id": 32,
+        "instrument": "electronic",
+        "description": "A bitter and sour piece. The tempo is quite static. The piece generates tension and anxiety."
+    },
+    {
+        "id": 33,
+        "instrument": "electric guitar and drums",
+        "description": "A sour and rythmic piece. The guitar plays a melody and the drums play a rythmic accompaniment. In the background there is a fast and continuos arpeggio with short notes."
+    },
+    {
+        "id": 34,
+        "instrument": "strings",
+        "description": "A bitter and sour piece. The strings play a fast melody with a lot of dissonances."
+    },
+    {
+        "id": 35,
+        "instrument": "strings",
+        "description": "A bitter and sour piece. The strings play a low ostinato. After a while begins an high melody by a violin that creates a contrast."
+    },
+    {
+        "id": 36,
+        "instrument": "electronic",
+        "description": "A bitter and sour piece. There is no tempo, only a series of low dissonant sounds with an high continuous note in the background."
+    },
+    {
+        "id": 37,
+        "instrument": "electronic",
+        "description": "A bitter and sour piece. The tempo is slow. There is a low and continuous percussive sound in the background."
+    },
+    {
+        "id": 38,
+        "instrument": "electronic",
+        "description": "A bitter and sour piece. The tempo is slow. Really high and dissonant sounds are played over a simple arpeggio."
+    },
+    {
+        "id": 39,
+        "instrument": "electronic",
+        "description": "A bitter and sour piece. The tempo is slow. A high continuous dissonant note is played in the background. Low sounds interrupt the high note."
+    },
+    {
+        "id": 40,
+        "instrument": "electronic",
+        "description": "A bitter and sour piece. The tempo is concitato. The piece is dissonant and there is a continuous percussive low sound."
+    },
+    {
+        "id": 41,
+        "instrument": "electronic",
+        "description": "A sour and bitter piece. Slow tempo. A high short sound is played over a low and continuous sound."
+    },
+    {
+        "id": 42,
+        "instrument": "electronic",
+        "description": "A sour and a little bitter piece. Fast percussive sounds generate a disco like atmosphere."
+    },
+    {
+        "id": 43,
+        "instrument": "electric guitar and drums",
+        "description": "A sour, bitter and salty piece. Really fast tempo. The guitar is distorted and plays in metal style."
+    },
+    {
+        "id": 44,
+        "instrument": "drums and bass",
+        "description": "A salty and sour piece. Low and percussive sounds."
+    },
+    {
+        "id": 45,
+        "instrument": "electric guitar and drums",
+        "description": "A salty and a little sour piece. Fast tempo with a guitar playing chords rythmically over the drums accompaniment."
+    },
+    {
+        "id": 46,
+        "instrument": "electric guitar and drums",
+        "description": "A sour and little salty piece. Fast tempo with a guitar playing fast chords over the drums accompaniment."
+    },
+    {
+        "id": 47,
+        "instrument": "electric guitar and drums",
+        "description": "A sour and salty piece. Fast tempo with a guitar playing rythmically chords over the fast drums accompaniment."
+    },
+    {
+        "id": 48,
+        "instrument": "electronic",
+        "description": "A sour, salty and bitter piece. Fast tempo with a lot of electronic rythmic sounds."
+    },
+    {
+        "id": 49,
+        "instrument": "electronic",
+        "description": "A sour and bitter piece. Slow tempo. Low and dissonant background sounds."
+    },
+    {
+        "id": 50,
+        "instrument": "electronic",
+        "description": "A bitter, sour and salty piece. A high arpeggio in the background accompains a low guitar melody."
+    },
+    {
+        "id": 51,
+        "instrument": "piano",
+        "description": "A sweet piece. A simple melody is being played over some chords."
+    },
+    {
+        "id": 52,
+        "instrument": "piano",
+        "description": "A sweet piece. A piano plays continuously a simple arpeggio."
+    },
+    {
+        "id": 53,
+        "instrument": "electronic",
+        "description": "A sweet and salty piece. Fast and short sounds are played over a low and stable musical carpet."
+    },
+    {
+        "id": 54,
+        "instrument": "bells",
+        "description": "A bitter and a little sour piece. Bells play a low melody."
+    },
+    {
+        "id": 55,
+        "instrument": "piano and strings",
+        "description": "A sweet and peaceful piece. The piano plays a simple melody over a continuous and fast accompaniment by the strings."
+    },
+    {
+        "id": 56,
+        "instrument": "piano",
+        "description": "A sweet piece. The piano plays a simple and very high melody."
+    },
+    {
+        "id": 57,
+        "instrument": "piano",
+        "description": "A sweet piece. The piano plays an high and continuous melody."
+    },
+    {
+        "id": 58,
+        "instrument": "electronic",
+        "description": "A sweet piece. The instruments sound like plucked strings. A high percussive accompaniment in the background is covered by a simple melody."
+    },
+    {
+        "id": 59,
+        "instrument": "electronic",
+        "description": "A sweet piece. A nice and simple arpeggio is the background for really high and soft sounds."
+    },
+    {
+        "id": 60,
+        "instrument": "marimba",
+        "description": "A sweet, sour, salty and bitter piece. Percussive sounds generate a rythmic melody."
+    },
+    {
+        "id": 61,
+        "instrument": "marimba",
+        "description": "A sweet and rythmic piece. The marimba plays a continuous and engaging melody."
+    },
+    {
+        "id": 62,
+        "instrument": "piano",
+        "description": "A sweet and salty piece. The piano plays a jazzy melody over a low and nice arpeggio."
+    },
+    {
+        "id": 63,
+        "instrument": "electronic",
+        "description": "A sweet and little salty piece. High percussive sounds are played over a nice middle-low accompaniment."
+    },
+    {
+        "id": 64,
+        "instrument": "piano and strings",
+        "description": "A sweet piece. The piano plays a rythmic melody over a continuous and high note by the strings."
+    },
+    {
+        "id": 65,
+        "instrument": "electronic",
+        "description": "A sweet and rythmic piece. Fast and soft high notes are played frenetically over a low and pacific background."
+    },
+    {
+        "id": 66,
+        "instrument": "electronic",
+        "description": "A mostly salty piece. Slow tempo, with no melody."
+    },
+    {
+        "id": 67,
+        "instrument": "piano",
+        "description": "A sweet and little bitter piece. The piano plays a high melody over a continuous arpeggio."
+    },
+    {
+        "id": 68,
+        "instrument": "guitar",
+        "description": "A sweet piece. The guitar plays a really delicate and touching arpeggio."
+    },
+    {
+        "id": 69,
+        "instrument": "electronic",
+        "description": "A sweet piece. A high melody that sounds like a flute is played over an arpeggio and long harmonies in the background."
+    },
+    {
+        "id": 70,
+        "instrument": "electronic",
+        "description": "A sweet and sour piece. The tempo is slow. A big static bourdon is played in the background and fragments of melody are present."
+    },
+    {
+        "id": 71,
+        "instrument": "electronic",
+        "description": "A sweet and salty piece. Middle and low continuous sounds as background are covered by a simple high melody."
+    },
+    {
+        "id": 72,
+        "instrument": "electronic",
+        "description": "A sweet and salty piece. The tempo is slow. Low rythmic sounds are the base for a modern groovy sound."
+    },
+    {
+        "id": 73,
+        "instrument": "electronic",
+        "description": "A sweet and salty piece. High rythmic arpeggio sounds contrast with another high but continuous sound."
+    },
+    {
+        "id": 74,
+        "instrument": "strings",
+        "description": "A sweet, bitter and salty piece starts with a ironic melody played by bells on low plucked strings, then violins start to play the melody."
+    },
+    {
+        "id": 75,
+        "instrument": "piano and drums",
+        "description": "A really sweet and salty piece. A jazzy piano plays a really engaging melody over really cool harmonies while the drums accompain with brushes."
+    },
+    {
+        "id": 76,
+        "instrument": "bell and gruitar",
+        "description": "A sweet and salty piece. The bell plays a high melody over a guitar that plays a rythmic background."
+    },
+    {
+        "id": 77,
+        "instrument": "guitar",
+        "description": "A sweet and salty piece. Really rythmic, short and high sounds are played by a guitar."
+    },
+    {
+        "id": 78,
+        "instrument": "plucked strings",
+        "description": "A salty and sweet piece. The tempo is quite fast, the plucked strings play the rythmic section with some melody fragments played with high notes."
+    },
+    {
+        "id": 79,
+        "instrument": "plucked strings and clapping",
+        "description": "A really sweet and happy piece, a little salty. Fast rythmic short sounds accompained by clapping."
+    },
+    {
+        "id": 80,
+        "instrument": "piano and plucked strings",
+        "description": "A sweet and a little salty piece. The piano plays a really high melody, while strings play a rythmic accompaniment."
+    },
+    {
+        "id": 81,
+        "instrument": "electronic",
+        "description": "A sour and salty piece. The tempo is fast. A nice groove on the middle-low register susteins a high melody."
+    },
+    {
+        "id": 82,
+        "instrument": "marimba",
+        "description": "A salty and sweet piece. Really rythmic, like a military march. The melody is played with high frequencies"
+    },
+    {
+        "id": 83,
+        "instrument": "bass",
+        "description": "A sweet and salty piece. A really nice and rythmic fast bass line grooves under a high melody."
+    },
+    {
+        "id": 84,
+        "instrument": "wind orchestra",
+        "description": "An extramely sweet piece, quite relaxing. The brass play the bass line, the clarinets the accompaniment and the flutes the melody."
+    },
+    {
+        "id": 85,
+        "instrument": "choir, bass and accordion",
+        "description": "A salty piece. The accordion plays a rythmic accompaniment with chords, the bass plays the bass line and the choir sings the melody."
+    },
+    {
+        "id": 86,
+        "instrument": "piano and drums",
+        "description": "A sweet piece. The piano plays a really high melody over a rythmic drums/bass accompaniment. he bass plays a really nice and sympathetic walking bass."
+    },
+    {
+        "id": 87,
+        "instrument": "electronic",
+        "description": "A sweet, sour and salty piece. The really high melody is played by a synth, while a drum machine plays the bass and a hit-hat."
+    },
+    {
+        "id": 88,
+        "instrument": "clarinet, accordion, tuba",
+        "description": "A salty piece. Balkanic style. The clarinet plays the melody, the accordion the accompaniment and the tuba the bass line. Fast tempo."
+    },
+    {
+        "id": 89,
+        "instrument": "whistle and accordion",
+        "description": "A sweet and salty piece. The whistle plays a really high melody, while the accordion plays a rythmic accompaniment."
+    },
+    {
+        "id": 90,
+        "instrument": "clarinet, bass, drums, violin and accordion",
+        "description": "A sweet and salty jazz piece. The clarinet plays the melody, the bass the bass line, the drums the rythmic section, the violin the accompaniment and the accordion the chords. Quite fast tempo."
+    },
+    {
+        "id": 91,
+        "instrument": "piano and trumpet",
+        "description": "A very sweet and a little salty piece. Classical style. Firstly The piano plays the melody and then the trumpet."
+    },
+    {
+        "id": 92,
+        "instrument": "plucked strings",
+        "description": "A sweet and salty piece. The plucked strings play a rythmic accompaniment with some melody fragments. Fast tempo."
+    },
+    {
+        "id": 93,
+        "instrument": "mandolin, accordion, bass and drums",
+        "description": "A really salty piece. The mandolin plays the melody, the accordion the accompaniment, the bass the bass line and the drums the rythmic section. Fast tempo. Traditional italian style."
+    },
+    {
+        "id": 94,
+        "instrument": "strings",
+        "description": "A sweet and salty piece. The strings play a rythmic accompaniment with a high melody by the flutes. Fast tempo."
+    },
+    {
+        "id": 95,
+        "instrument": "electronic",
+        "description": "A sweet and salty piece. Disco-pop style. The bass plays a rythmic accompaniment, the drums the rythmic section and the synth the melody. Short high notes by the synth. Nice groove."
+    },
+    {
+        "id": 96,
+        "instrument": "marimba and drums",
+        "description": "A sweet and salty piece. The marimba plays a rythmic accompaniment with some melody fragments. The drums play the rythmic section. Fast tempo."
+    },
+    {
+        "id": 97,
+        "instrument": "guitar",
+        "description": "A sweet and salty piece. The guitar plays a rythmic accompaniment with some melody fragments. Fast upbeat tempo."
+    },
+    {
+        "id": 98,
+        "instrument": "electronic",
+        "description": "A sweet and salty piece. The bass plays a rythmic accompaniment. The drums play the rythmic section. High rythmic and short sounds form the melody. Fast tempo."
+    },
+    {
+        "id": 99,
+        "instrument": "brass, bass and percussions",
+        "description": "A salty and sweet piece. The brass play the accompanimet and the melody, the bass the bass line and the percussions the rythmic section. Fast tempo. Danceable. Cha-cha-cha style."
+    },
+    {
+        "id": 100,
+        "instrument": "flute, synth and bass",
+        "description": "A sweet and salty piece. The flute plays the melody and the synth the accompaniment. Fast tempo."
+    }
+]
