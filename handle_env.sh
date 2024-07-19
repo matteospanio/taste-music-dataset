@@ -18,5 +18,8 @@ fi
 info "Installing dependencies..."
 pip install -r requirements.txt
 
+info "Running the script..."
+python dataset.py data data/annotations 2>/dev/null
+
 info "Bye!"
 deactivate

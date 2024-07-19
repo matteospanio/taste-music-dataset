@@ -45,7 +45,7 @@ class Metadata:
     moods: list[str]
 
     @classmethod
-    def from_file(cls, file: pl.Path) -> Metadata:
+    def from_file(cls, file: pl.Path, kw: list[str]) -> Metadata:
         s = MP3(file, ID3=EasyID3)
 
         with open("descriptions.json") as f:
@@ -65,7 +65,7 @@ class Metadata:
             sample_rate=int(s.info.sample_rate),
             file_extension=file.suffix,
             description=dd["description"],
-            keywords="",
+            keywords=", ".join(kw),
             duration=float(s.info.length),
             bpm=str(bpm),
             genre=s["genre"][0],
@@ -93,6 +93,28 @@ def get_key(song: pl.Path) -> str:
     return key
 
 
+def get_keywords(song: pl.Path, df: pd.DataFrame) -> list[str]:
+    keywords = []
+    row = df.loc[int(song.stem)]
+    kw = np.array([row["Sweet"], row["Bitter"], row["Sour"], row["Salty"]])
+
+    for i, k in enumerate(kw):
+        if k > 25:
+            match i:
+                case 0:
+                    keywords += ["Sweet"]
+                case 1:
+                    keywords += ["Bitter"]
+                case 2:
+                    keywords += ["Sour"]
+                case 3:
+                    keywords += ["Salty"]
+                case _:
+                    keywords += []
+
+    return keywords
+
+
 def main():
     parser = ap.ArgumentParser(
         description="Create metadata files for all the songs in the dataset"
@@ -114,8 +136,9 @@ def main():
     df = df.loc[:, COLUMNS]
 
     for song in sorted(src.glob("**/*.mp3")):
+        keywords = get_keywords(song, df)
         with (dst / f"{song.stem}.json").open("w") as f:
-            json.dump(asdict(Metadata.from_file(song)), f, indent=4)
+            json.dump(asdict(Metadata.from_file(song, keywords)), f, indent=4)
 
 
 if __name__ == "__main__":
