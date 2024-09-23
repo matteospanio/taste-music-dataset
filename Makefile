@@ -14,10 +14,8 @@ data: soundtracks metadata
 	mkdir -p data
 	mv soundtracks metadata_* data
 	bash ./handle_env.sh
-	mkdir -p data/dataset
-	mv data/soundtracks/* data/dataset
-	mv data/annotations/* data/dataset
+	rm data/*.xlsx
 
 .PHONY: clean metadata
 clean:
-	rm -rf soundtracks
+	rm -rf data
