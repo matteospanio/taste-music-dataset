@@ -1,8 +1,10 @@
 # taste-music-dataset
 
-This is the repository to make a fine-tuning dataset for MusicGEN.
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-> Under construction
+This is the repository to make a fine-tuning dataset for [MusicGEN](https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md), a model for music generation by Facebook Research.
+
+This dataset has been released under the project [A Multimodal Symphony: Integrating Taste and Sound through Generative AI](https://osf.io/xs5jy/), and is an attachment to the paper *A Multimodal Symphony: Integrating Taste and Sound through Generative AI by Matteo Spanio, Massimiliano Zampini, Antonio Rodà and Franco Pierucci*.
 
 ## How to use
 
@@ -27,6 +29,12 @@ mv /path/to/taste-music-dataset/data/train ./egs/train
 mv /path/to/taste-music-dataset/data/eval ./egs/eval
 ```
 
+## Acknowledgements
+
+We thank the authors of the [Taste & Affect Music Database](https://osf.io/2cqa5/)[^1], a set of 100 musical stimuli suitable for crossmodal and affective research, on which this dataset is based.
+
 ## License
 
-[GPL-3.0](LICENSE)
+This dataset is distributed under the [CC BY 4.0](LICENSE) license.
+
+[^1]: Guedes, D., Prada, M., Garrido, M. V., & Lamy, E. (2022, November 24). The Taste & Affect Music Database. Retrieved from osf.io/2cqa5
