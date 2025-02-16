@@ -1,6 +1,7 @@
 # taste-music-dataset
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://zenodo.org/badge/801652017.svg)](https://doi.org/10.5281/zenodo.14879128)
 
 This is the repository to make a fine-tuning dataset for [MusicGEN](https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md), a model for music generation by Facebook Research.
 
