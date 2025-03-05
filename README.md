@@ -30,6 +30,22 @@ mv /path/to/taste-music-dataset/data/train ./egs/train
 mv /path/to/taste-music-dataset/data/eval ./egs/eval
 ```
 
+## Citation
+
+If you use this code or the data in your research, please cite the following article:
+
+```
+@misc{spanio2025multimodalsymphonyintegratingtaste,
+      title={A Multimodal Symphony: Integrating Taste and Sound through Generative AI}, 
+      author={Matteo Spanio and Massimiliano Zampini and Antonio Rodà and Franco Pierucci},
+      year={2025},
+      eprint={2503.02823},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2503.02823}, 
+}
+```
+
 ## Acknowledgements
 
 We thank the authors of the [Taste & Affect Music Database](https://osf.io/2cqa5/)[^1], a set of 100 musical stimuli suitable for crossmodal and affective research, on which this dataset is based.
